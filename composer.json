@@ -1,0 +1,21 @@
+{
+    "name": "d-garces/orm",
+    "description": "Simple basic general purpose PHP data modeling for custom integrations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "d-garces",
+            "email": "d.garces@easyray-pro.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "MyphpBackup\\": "src/"
+        }
+      },
+    "require": {
+      "php": "^5.0.5"
+    }
+}
